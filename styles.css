@@ -1,0 +1,200 @@
+*{
+    font-family: 'Staatliches';
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* background: url("/img/FONDO.jpg")center no-repeat ; */
+    background-color: rgb(7, 84, 146);
+    background-size: cover;
+    position: relative;
+  
+}
+
+.logo{
+    border-radius: 20px;
+}
+
+.title{
+    margin: 50px 0;
+}
+
+
+.a-title{
+    text-decoration: none;
+    color: white;
+    transition: 500ms ease-in-out;
+}
+
+.a-title:hover{
+    color: orange;
+}
+
+
+
+.navbar{
+    padding: 30px 0;
+}
+.navbar-brand img{
+    transition: 500ms ease;
+}
+.navbar-brand img:hover{
+    transform: scale(1.10,1.10);
+}
+
+
+
+/**
+*!INDEX
+**/
+
+.container{
+    margin: 200px 0;
+}
+
+/**
+*!HISTORIA
+**/
+
+.historia-container{
+    margin: 100px 0;
+}
+
+.text{
+ margin: 10px 20px;
+ color: white;
+}
+
+.organigrama{
+    margin: 20px 30px;
+    border: solid black 2px;
+    border-radius: 20px ;
+    transition: 500ms ease;
+}
+
+.organigrama:hover{
+    transform: scale(1.05,1.05);
+}
+
+
+
+/**
+*!UBI
+**/
+.title-map{
+    color: whitesmoke;
+    margin: 20px 0;
+}
+.map-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map{
+    margin-bottom: 40px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.map:hover{
+    transform: scale(1.05,1.05);
+}
+
+
+/**
+*!FUNCIONAMIENTO
+**/
+.funcionamiento-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.funcionamiento{
+    display: flex;
+}
+    
+.bpd{
+    margin: 45px 15px;
+    border-radius: 20px;
+    transition: 500ms ease;
+}
+
+.bpd:hover{
+    transform: scale(1.05,1.05);
+}
+
+/**
+*! FOOTER
+**/
+
+footer{
+    color: white;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #212529;
+    
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 0;
+}
+.box{
+    margin: 5px 13px
+}
+.box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box figure img{
+    width: 160px;
+}
+.red-social .bi{
+    font-size: 30px;
+    margin: 0 15px;
+    transition: 500ms ease-in ;
+}
+.red-social .bi:hover{
+    transform: scale(1.05,1.05);
+}
+.bi-instagram{
+    color: white;
+}
+.bi-youtube{
+    color: red;
+}
+
+/**
+*! EXTRAS
+**/
+
+.api-container{
+    height: calc(100vh - 426px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.api-buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-api{
+    max-height: 250px;
+    margin: 25px 0;
+}
+
+
+
